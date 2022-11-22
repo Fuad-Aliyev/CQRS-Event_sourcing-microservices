@@ -4,8 +4,8 @@ import com.eventsourcing.bankaccount.es.AggregateRoot;
 import com.eventsourcing.bankaccount.es.Event;
 import com.eventsourcing.bankaccount.es.SerializerUtils;
 import com.eventsourcing.bankaccount.es.exceptions.InvalidEventTypeException;
-import com.eventsourcing.events.BalanceDepositedEvent;
-import com.eventsourcing.events.BankAccountCreatedEvent;
+import com.eventsourcing.bankaccount.events.BalanceDepositedEvent;
+import com.eventsourcing.bankaccount.events.BankAccountCreatedEvent;
 import lombok.*;
 
 import java.math.BigDecimal;

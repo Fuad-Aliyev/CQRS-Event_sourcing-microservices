@@ -1,4 +1,4 @@
-package com.eventsourcing.events;
+package com.eventsourcing.bankaccount.events;
 
 import com.eventsourcing.bankaccount.domain.BankAccountAggregate;
 import com.eventsourcing.bankaccount.es.BaseEvent;
